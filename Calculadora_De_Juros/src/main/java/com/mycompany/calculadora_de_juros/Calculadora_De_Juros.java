@@ -17,7 +17,6 @@ public class Calculadora_De_Juros {
         double taxa;
         double tempo;
         double jurosSimples;
-        double jurosCompostos;
         
         Scanner dados=new Scanner (System.in);
         
@@ -31,11 +30,6 @@ public class Calculadora_De_Juros {
         tempo=dados.nextDouble();
         
         jurosSimples=valorprincipal*taxa*tempo;
-        System.out.println("jusros simples ="+jurosSimples);
-        
-       
-        
-        
-        
+        System.out.println("juros simples= "+jurosSimples);
     }
 }
